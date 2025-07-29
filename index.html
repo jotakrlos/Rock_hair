@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meu Produto | Página de Divulgação</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="header">
+    <div class="container">
+      <h1 class="logo">Rock'n Hair<br><h4>Salão de beleza</h4></h1>
+      <nav class="nav">
+        <a href="#sobre">Sobre</a>
+        <a href="#recursos">Recursos</a>
+        <a href="#preco">Preços</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+   <section class="hero">
+    <div class="container">
+      <h2>Você merece se sentir bonita todos os dias! É para isso que estamos 
+        aqui!<br><strong>ROCK'N HAIR</strong></h2>
+      <p>Porque você merece ser cuidada e mimada de vez em quando! </p>
+      <a href="#contato" class="btn">Comece agora</a>
+    </div>
+  </section>
+
+  <div class="carousel">
+    <img src="imagens/img1.jpg" class="slide active" alt="Imagem 1" />
+    <img src="imagens/img2.jpg" class="slide" alt="Imagem 2" />
+    <img src="imagens/img3.jpg" class="slide" alt="Imagem 3" />
+    <img src="imagens/img4.jpg" class="slide" alt="Imagem 4" />
+    <img src="imagens/img5.jpg" class="slide" alt="Imagem 5" />
+    <img src="imagens/img6.jpg" class="slide" alt="Imagem 6" />
+    <img src="imagens/img7.jpg" class="slide" alt="Imagem 7" />
+    <img src="imagens/img8.jpg" class="slide" alt="Imagem 8" />
+    <img src="imagens/img9.jpg" class="slide" alt="Imagem 9" />
+    <img src="imagens/img10.jpg" class="slide" alt="Imagem 10" />
+    <img src="imagens/img11.jpg" class="slide" alt="Imagem 11" />
+    <img src="imagens/img12.jpg" class="slide" alt="Imagem 12" />
+    <img src="imagens/img13.jpg" class="slide" alt="Imagem 13" />
+    <img src="imagens/img14.jpg" class="slide" alt="Imagem 14" />
+    <img src="imagens/img15.jpg" class="slide" alt="Imagem 15" />
+    <img src="imagens/img16.jpg" class="slide" alt="Imagem 16" />
+    <img src="imagens/img17.jpg" class="slide" alt="Imagem 17" />
+
+
+
+
+    <button class="prev" onclick="mudarSlide(-1)">❮</button>
+    <button class="next" onclick="mudarSlide(1)">❯</button>
+  </div>
+
+  <section id="sobre" class="section">
+    <div class="container">
+      <h2> Quem somos</h2>
+      <p>Ativo no mercado desde 2017, o Rock'n Hair é um salão individual composto 
+        da cabelereira Lah Bertula, profissional formada em:Técnicas de corte, 
+        coloração, penteados, hidratação e tratamentos capilares. Química capilar, 
+        colorimetria, descoloração e técnicas de alisamento/relaxamento.  
+      </p>
+      <p>Transformar autoestima é o nosso serviço favorito, 
+        aqui, cada detalhe importa:<br> do atendimento ao resultado final. 
+        Mais que beleza, entregamos cuidado, escuta e confiança.<br>
+        Seu cabelo merece 
+        um salão que entende você, 
+        vem descobrir o poder de um atendimento personalizado.<br> 
+        Primeira visita com desconto especial.<br>Agende já! </p>
+    </div>
+  </section>
+
+  <section id="recursos" class="section alt">
+    <div class="container">
+      <h3>Principais recursos</h3>
+      <ul>
+        <li>✅ <b>Corte e Coloração:</b><br>
+                Profissional qualificada para criar o visual desejado, 
+                desde cortes modernos até colorações vibrantes.</li><br>
+        <li>✅ <b>Tratamentos Capilares:</b><br>
+                Hidratação, reconstrução, cauterização, e outros tratamentos
+                 para manter a saúde e
+                beleza dos cabelos.</li><br>
+        <li>✅ <b>rodutos Profissionais:</b><br>
+                Utilização de produtos de alta qualidade, desenvolvidos 
+                para uso profissional, 
+                que garantem melhores resultados. </li><br>
+        <li>✅ <b>Pacotes e Promoções:</b><br>
+                Combinações de serviços com preços especiais, que incentivam a 
+                experimentação de diferentes tratamentos. </li><br>
+        <li>✅ <b>Agendamento Online:</b><br>
+                Facilidade para marcar horários através de 
+                plataformas digitais, otimizando o tempo e a organização.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="preco" class="section">
+    <div class="container">
+      <h2>Planos e Preços:</h2>
+      <h3>Programa fidelidade</h3>
+      <p>A partir de <strong>R$100,00/mês</strong>. Sem surpresas.</p><hr style="border: none; height: 2px; background-color: #333; margin: 20px 0;">
+      <h2>Promoções:</h2>
+      <h3>CORTE + ESCOVA</h3>
+      <h4>R$ 100,00</h4><hr>
+      <h3>HIDATRAÇÃO</h3>
+      <h4>R$ 70,00</h4><hr>
+      <h3>COLORAÇÃO A PARTIR DE</h3>
+      <h4>R$ 50,00</h4><hr>
+      <h3>PROGRESSIVA A PARTIR DE</h3>
+      <h4>R$ 150,00</h4>
+      <a href="#contato" class="btn">Assinar agora</a>
+    </div>
+  </section>
+
+  <section id="contato" class="section alt">
+    <div class="container">
+      <h3>Entre em contato</h3>
+    <form action="enviar.php" method="POST">
+        <label>Nome:</label><br>
+        <input type="text" name="nome" required><br><br>
+
+        <label>E-mail:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Mensagem:</label><br>
+        <textarea name="mensagem" rows="5" required></textarea><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+      <div>
+        
+        <h3><img src="imagens/zap.jpg" style="width: 30px; border: 20px;"><b>via whatsapp</b> (11) 9 7048-4793</h3>
+      </div>
+      
+    </div>
+  </section>
+
+</body>
+<footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Rock Hair. Todos os direitos reservados.</p>
+    </div>
+
+    <script src="script.js"></script>
+</footer>
+</html>
