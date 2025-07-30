@@ -126,22 +126,18 @@ section p{
       height: 100vh;
       background-size: cover;
       background-position: center;
-      background-attachment:;/* Parallax efeito */
+      background-attachment: fixed; /* Parallax efeito */
       display: flex;
       align-items: center;
       justify-content: center;
       text-align: center;
       color: white;
-      padding: 50px;
+      padding: 80px 20px;
     }
-.imagem-responsiva {
-    max-width: 100%;
-    height: auto;
-    display: block;
-  }
+
 @media (max-width: 768px) {
   .section-com-imagem {
-    height: 60vh; /* ou menos */
+    height: 40vh; /* ou menos */
   }
 }
 .section-com-imagem::before {
@@ -151,6 +147,13 @@ section p{
       background-color: rgba(85, 2, 2, 0.637); /* mais escuro = mais legível */
       z-index: 1;
       border-radius: 20px;
+      padding: 60px 20px;
+      color: #fff;
+      padding: 80px 20px;
+      text-align: center;
+      max-width: 1000px;
+      margin: 50px auto;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 
  .conteudo-texto {
