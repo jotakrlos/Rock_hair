@@ -1,15 +1,14 @@
 body {
-  font-family: Arial, sans-serif;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f2f2f2;
   margin: 0;
   padding: 0;
-  background: #222;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100vh;
+  
 }
 
 .container {
+  
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
@@ -17,7 +16,7 @@ body {
 }
 
 .header {
-  background: #222;
+  background: linear-gradient(135deg, #040405, #8ab0ec);
   color: #fff;
   padding: 20px 0;
 }
@@ -34,6 +33,11 @@ body {
   width: 100%;
 }
 
+section h2{
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
 
 .slide.active {
   display: block;
@@ -56,7 +60,13 @@ body {
 .next { right: 10px; }
 
 .logo {
-  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: 4px 3px 4px rgba(190, 189, 189, 0.753);
 }
 
 .nav a {
@@ -86,18 +96,32 @@ body {
   display: inline-block;
   margin-top: 20px;
 }
+section p{
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
 
 .section {
   padding: 60px 20px;
+  background: linear-gradient(135deg, #040405, #8ab0ec);
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+  border-radius: 20px;
+  max-width: 1000px;
+  margin: 50px auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
   
 }
 
 .section.alt {
-  background: #f9f9f9;
+  background: linear-gradient(135deg, #040405, #8ab0ec);
 }
 
 .footer {
-  background: #333;
+  background: #09090adc;
   color: #fff;
   text-align: center;
   padding: 20px 0;
@@ -110,3 +134,12 @@ form input, form textarea {
   padding: 10px;
   font-size: 16px;
 }
+ @media (max-width: 768px) {
+      .section-estilosa {
+        padding: 50px 15px;
+      }
+
+      .section-estilosa h2 {
+        font-size: 2rem;
+      }
+    }
