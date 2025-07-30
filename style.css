@@ -164,7 +164,7 @@ section p{
       animation: fadeInUp 1.2s ease-out forwards;
       opacity: 0;
       transform: translateY(30px);
-      height: 60vh;
+      height: 100vh;
       
     }
 
