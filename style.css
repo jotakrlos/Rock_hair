@@ -116,7 +116,7 @@ section p{
   
 }
 .section-com-imagem {
-  padding: 60px 20px;
+ 
   background: linear-gradient(135deg, #4e0101, #080202);
   color: #fff;
   padding: 110px 20px;
@@ -141,7 +141,7 @@ section p{
       content: "";
       position: absolute;
       top: 0; left: 0; right: 0; bottom: 0;
-      background-color: rgba(104, 2, 2, 0.493); /* mais escuro = mais legível */
+      background-color: rgba(85, 2, 2, 0.637); /* mais escuro = mais legível */
       z-index: 1;
       border-radius: 20px;
 }
