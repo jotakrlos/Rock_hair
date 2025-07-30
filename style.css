@@ -130,7 +130,7 @@ section p{
       background-repeat: no-repeat;
       position: relative;
       height: 100vh;
-     
+      background-attachment: fixed; /* Parallax efeito */
       display: flex;
       align-items: center;
       justify-content: center;
@@ -163,8 +163,8 @@ section p{
  .conteudo-texto {
       position: relative;
       z-index: 2;
-      max-width: 400px;
-      padding: 80px 10px;
+      max-width: 1000px;
+      padding: 60px 20px;
       animation: fadeInUp 1.2s ease-out forwards;
       opacity: 0;
       transform: translateY(30px);
