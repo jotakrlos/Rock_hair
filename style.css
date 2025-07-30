@@ -5,6 +5,7 @@ body,html {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+ 
   
 }
 
@@ -117,10 +118,13 @@ section p{
   
 }
 .section-com-imagem {
- 
-   position: relative;
+      background-image: url('imagens/lah.JPG');
+      background-size: cover;       /* ajusta a imagem para cobrir toda a seção */
+      background-position: center;  /* centraliza a imagem */
+      background-repeat: no-repeat;
+      position: relative;
       height: 100vh;
-      background-image: url('https://source.unsplash.com/1600x900/?creative,technology');
+    
       background-size: cover;
       background-position: center;
       background-attachment: fixed; /* Parallax efeito */
@@ -131,6 +135,16 @@ section p{
       color: white;
       padding: 50px;
     }
+.imagem-responsiva {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+@media (max-width: 768px) {
+  .section-com-imagem {
+    height: 60vh; /* ou menos */
+  }
+}
 .section-com-imagem::before {
       content: "";
       position: absolute;
@@ -158,6 +172,7 @@ section p{
       }
     }
 
+
 .section.alt {
   background: linear-gradient(135deg, #4e0101, #080202);
 }
@@ -184,4 +199,21 @@ form input, form textarea {
       .section-estilosa h2 {
         font-size: 2rem;
       }
+    }
+.loading {
+      font-size: 20px;
+      font-family: Arial, sans-serif;
+    }
+
+    .dots::after {
+      content: '';
+      display: inline-block;
+      animation: dots 1.5s steps(3, end) infinite;
+    }
+
+    @keyframes dots {
+      0%   { content: ''; }
+      33%  { content: '.'; }
+      66%  { content: '..'; }
+      100% { content: '...'; }
     }
