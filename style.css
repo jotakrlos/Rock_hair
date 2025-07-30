@@ -16,7 +16,7 @@ body {
 }
 
 .header {
-  background: linear-gradient(135deg, #040405, #8ab0ec);
+  background: linear-gradient(135deg, #4e0101, #080202);
   color: #fff;
   padding: 20px 0;
 }
@@ -66,7 +66,7 @@ section h2{
   color: #fff;
   letter-spacing: 2px;
   text-transform: uppercase;
-  text-shadow: 4px 3px 4px rgba(190, 189, 189, 0.753);
+  text-shadow: 4px 3px 4px rgba(190, 189, 189, 0.815);
 }
 
 .nav a {
@@ -105,7 +105,7 @@ section p{
 
 .section {
   padding: 60px 20px;
-  background: linear-gradient(135deg, #040405, #8ab0ec);
+  background: linear-gradient(135deg, #4e0101, #080202);
   color: #fff;
   padding: 80px 20px;
   text-align: center;
@@ -117,7 +117,7 @@ section p{
 }
 
 .section.alt {
-  background: linear-gradient(135deg, #040405, #8ab0ec);
+  background: linear-gradient(135deg, #4e0101, #080202);
 }
 
 .footer {
