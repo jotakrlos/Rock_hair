@@ -1,9 +1,10 @@
-body {
+body,html {
   margin: 0;
   font-family: 'Poppins', sans-serif;
   background-color: #f2f2f2;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
   
 }
 
@@ -117,25 +118,18 @@ section p{
 }
 .section-com-imagem {
  
-  background: linear-gradient(135deg, #4e0101, #080202);
-  color: #fff;
-  padding: 110px 20px;
-  text-align: center;
-  border-radius: 20px;
-  max-width: 1000px;
-  margin: 50px auto;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-  position: relative;
-  background-image: url('https://source.unsplash.com/1600x900/?business,office');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  text-align: center;
+   position: relative;
+      height: 100vh;
+      background-image: url('https://source.unsplash.com/1600x900/?creative,technology');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed; /* Parallax efeito */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      padding: 50px;
     }
 .section-com-imagem::before {
       content: "";
@@ -151,17 +145,16 @@ section p{
       z-index: 2;
       max-width: 800px;
       padding: 20px;
-      
+      animation: fadeInUp 1.2s ease-out forwards;
+      opacity: 0;
+      transform: translateY(30px);
     }
 
     
-    @media (max-width: 768px) {
-      .conteudo-texto h2 {
-        font-size: 2rem;
-      }
-
-      .conteudo-texto p {
-        font-size: 1rem;
+     @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
       }
     }
 
