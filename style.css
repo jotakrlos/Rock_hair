@@ -156,7 +156,15 @@ section p{
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 
- 
+ .conteudo-texto {
+      position: relative;
+      z-index: 1;
+      max-width: 800px;
+      padding: 60px 10px;
+      animation: fadeInUp 1.2s ease-out forwards;
+      opacity: 0;
+      transform: translateY(30px);
+    }
 
     
      @keyframes fadeInUp {
