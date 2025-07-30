@@ -124,10 +124,9 @@ section p{
       background-repeat: no-repeat;
       position: relative;
       height: 100vh;
-    
       background-size: cover;
       background-position: center;
-      background-attachment: fixed; /* Parallax efeito */
+      background-attachment:;/* Parallax efeito */
       display: flex;
       align-items: center;
       justify-content: center;
@@ -199,21 +198,4 @@ form input, form textarea {
       .section-estilosa h2 {
         font-size: 2rem;
       }
-    }
-.loading {
-      font-size: 20px;
-      font-family: Arial, sans-serif;
-    }
-
-    .dots::after {
-      content: '';
-      display: inline-block;
-      animation: dots 1.5s steps(3, end) infinite;
-    }
-
-    @keyframes dots {
-      0%   { content: ''; }
-      33%  { content: '.'; }
-      66%  { content: '..'; }
-      100% { content: '...'; }
     }
