@@ -143,6 +143,10 @@ section p{
   .section-com-imagem {
     height: 60vh; /* ou menos */
   }
+  .conteudo-texto {
+    height: 60vh; /* ou menos */
+  }
+
 }
 .section-com-imagem::before {
       content: "";
