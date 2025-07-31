@@ -112,6 +112,7 @@ section p{
 
 
 .section {
+  flex: 1 1 300px;
   padding: 60px 20px;
   background: linear-gradient(135deg, #4e0101, #080202);
   color: #fff;
