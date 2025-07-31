@@ -136,7 +136,10 @@ section p{
       justify-content: center;
       text-align: center;
       color: white;
+      padding: 60px 20px;
       padding: 80px 20px;
+      max-width: 1000px;
+      margin: 50px auto;
     }
 
 @media (max-width: 768px) {
@@ -168,8 +171,7 @@ section p{
  .conteudo-texto {
       position: relative;
       z-index: 2;
-       padding: 60px 20px;
-      
+      padding: 60px 20px;
       color: #fff;
       padding: 80px 20px;
       text-align: center;
