@@ -144,7 +144,7 @@ section p{
     height: 60vh; /* ou menos */
   }
   .conteudo-texto {
-    height: 60vh; /* ou menos */
+    height: 60vh, 60vh; /* ou menos */
   }
 
 }
