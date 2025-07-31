@@ -139,6 +139,11 @@ section p{
       color: white;
       padding: 80px 20px;
     }
+.conteudo-texto{
+   overflow-wrap: break-word;  /* força a quebra de palavras longas */
+   word-wrap: break-word;      /* suporte para navegadores mais antigos */
+   overflow: hidden;           /* impede o conteúdo de ultrapassar */
+}
 
 @media (max-width: 768px) {
   .imagem {
