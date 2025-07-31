@@ -143,6 +143,7 @@ section p{
    overflow-wrap: break-word;  /* força a quebra de palavras longas */
    word-wrap: break-word;      /* suporte para navegadores mais antigos */
    overflow: hidden;           /* impede o conteúdo de ultrapassar */
+   position: relative;
 }
 
 @media (max-width: 768px) {
@@ -168,11 +169,6 @@ section p{
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 
- .conteudo-texto {
-      position: relative;
-      z-index: 2;
-      
-    }
 
 
     
