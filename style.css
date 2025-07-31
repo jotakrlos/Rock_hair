@@ -144,7 +144,8 @@ section p{
     height: 60vh; /* ou menos */
   }
   .conteudo-texto {
-    height: 60vh, 60vh; /* ou menos */
+    height: 60vh,
+     /* ou menos */
   }
 
 }
@@ -167,11 +168,7 @@ section p{
  .conteudo-texto {
       position: relative;
       z-index: 2;
-      max-width: 800px;
-      padding: 60px 20px;
-      animation: fadeInUp 1.2s ease-out forwards;
-      opacity: 0;
-      transform: translateY(30px);
+      
     }
 
     
